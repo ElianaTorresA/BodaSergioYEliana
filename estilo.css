@@ -1,0 +1,27 @@
+* {margin: 0px; padding: 0px; box-sizing: border-box;}
+
+@font-face{
+    font-family: letra1;
+    src: url(fuentes/Nathalia.ttf);
+}
+@font-face{
+    font-family: letra2;
+    src: url(fuentes/RINGM___.TTF);
+}
+body{
+    font-family: letra2;
+    text-align: center;
+    padding: 1.5rem;
+}
+body .barra1 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+html{
+    scroll-behavior: smooth;
+}
+.item {
+    scroll-margin-top: 8ex;
+}
